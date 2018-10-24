@@ -66,7 +66,7 @@ if __name__ == "__main__":
   input_width = 224
   input_mean = 0
   input_std = 255
-  threshold = 0.3
+  threshold = 0.01
   input_layer = "Placeholder"
   output_layer = "final_result"
 
