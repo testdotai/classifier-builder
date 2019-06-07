@@ -132,7 +132,12 @@ import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
 
-FLAGS = None
+class Flags:
+
+    def __init__(self):
+        pass
+
+FLAGS = Flags()
 
 MAX_NUM_IMAGES_PER_CLASS = 2 ** 27 - 1  # ~134M
 
